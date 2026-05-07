@@ -1,0 +1,19 @@
+{
+  "shell": {
+    "brand": "لوحة تحكم Orphdash",
+    "searchPlaceholder": "ابحث عن الأيتام بالاسم…",
+    "searchHintShort": "اكتب حرفين على الأقل للبحث.",
+    "searchNoResults": "لا توجد نتائج.",
+    "notifications": "الإشعارات",
+    "new": "جديد",
+    "backToDashboard": "العودة إلى لوحة التحكم",
+    "openCalendar": "فتح التقويم",
+    "openNotifications": "فتح الإشعارات",
+    "closeNotifications": "إغلاق الإشعارات",
+    "closeNav": "إغلاق القائمة",
+    "openNav": "فتح القائمة",
+    "language": "اللغة",
+    "switchToArabic": "التبديل إلى العربية",
+    "switchToEnglish": "التبديل إلى الإنجليزية"
+  }
+}

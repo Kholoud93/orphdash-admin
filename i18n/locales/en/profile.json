@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "meta": {
+      "title": "Profile",
+      "description": "Administrator summary for this Orphdash instance."
+    },
+    "adminTitle": "Administrator",
+    "adminSubtitle": "You are viewing the admin workspace (seed snapshot).",
+    "quickStats": "Quick overview",
+    "statOrphans": "Orphans tracked",
+    "statDonationsSum": "Donations recorded (sample)",
+    "statCampaigns": "Campaigns active",
+    "statNotifications": "Notifications in inbox",
+    "accountHeading": "Account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "admin{'@'}orphanage.example.org",
+    "bioLabel": "Notes",
+    "bioPlaceholder": "Replace with roster rules, intake flow, or org notes when wired to auth."
+  }
+}

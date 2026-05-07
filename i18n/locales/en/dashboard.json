@@ -1,0 +1,26 @@
+{
+  "dashboard": {
+    "meta": {
+      "title": "Admin dashboard",
+      "description": "Overview of orphans, donations, campaigns, and notifications for administrators."
+    },
+    "header": {
+      "welcome": "Welcome back",
+      "title": "Admin overview",
+      "subtitle": "12 actions waiting"
+    },
+    "admin": {
+      "total_orphans": "Total orphans",
+      "total_donations": "Total donations",
+      "active_sponsorships": "Active sponsorships",
+      "live_campaigns": "Live campaigns",
+      "delta_orphans": "+2 this month",
+      "delta_donations": "+18% MoM",
+      "delta_retention": "92% retention",
+      "delta_campaigns": "2 ending soon",
+      "campaign_progress": "Campaign progress",
+      "view_all": "View all",
+      "notifications": "Notifications"
+    }
+  }
+}

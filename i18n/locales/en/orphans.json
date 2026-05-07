@@ -1,0 +1,16 @@
+{
+  "orphans": {
+    "meta": {
+      "title": "Orphans",
+      "description": "Browse orphan records linked to seed data."
+    },
+    "title": "Orphans",
+    "subtitle": "{count} records (demo data)",
+    "colPhoto": "Photo",
+    "colName": "Name",
+    "colAge": "Age",
+    "colStatus": "Status",
+    "colUrgency": "Priority",
+    "colLocation": "Location"
+  }
+}

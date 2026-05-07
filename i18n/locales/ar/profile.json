@@ -1,0 +1,20 @@
+{
+  "profile": {
+    "meta": {
+      "title": "الملف الشخصي",
+      "description": "ملخص المشرف لهذه النسخة من Orphdash."
+    },
+    "adminTitle": "المشرف",
+    "adminSubtitle": "أنت الآن في مساحة عمل المشرف (بيانات تجريبية).",
+    "quickStats": "نظرة سريعة",
+    "statOrphans": "عدد الأيتام المسجلين",
+    "statDonationsSum": "إجمالي التبرعات (تجريبي)",
+    "statCampaigns": "عدد الحملات النشطة",
+    "statNotifications": "الإشعارات في صندوق الوارد",
+    "accountHeading": "الحساب",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "admin{'@'}orphanage.example.org",
+    "bioLabel": "ملاحظات",
+    "bioPlaceholder": "يمكنك إضافة قواعد العمل أو إجراءات التسجيل أو ملاحظات المؤسسة بعد ربط النظام بالمصادقة."
+  }
+}

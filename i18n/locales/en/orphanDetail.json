@@ -1,0 +1,23 @@
+{
+  "orphanDetail": {
+    "meta": {
+      "title": "Orphan profile",
+      "description": "Details for one orphan profile (demo data)."
+    },
+    "notFound": "Orphan not found",
+    "notFoundHint": "This record is missing from the seeded list.",
+    "backToOrphans": "Back to orphans list",
+    "back": "Back",
+    "age": "Age {age}",
+    "metaSeparator": "·",
+    "imageAlt": "Photo of {name}",
+    "monthlySupport": "Monthly support target",
+    "raisedSoFar": "Raised",
+    "status": "Status",
+    "urgency": "Priority",
+    "location": "Location",
+    "needs": "Needs",
+    "story": "Story",
+    "sponsorNow": "Sponsor now"
+  }
+}

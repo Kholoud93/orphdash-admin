@@ -1,0 +1,51 @@
+{
+  "seed": {
+    "orphanStatus": {
+      "sponsored": "مكفول",
+      "partiallyFunded": "ممول جزئيًا",
+      "awaitingSponsor": "بانتظار كفيل"
+    },
+    "urgency": {
+      "low": "منخفض",
+      "medium": "متوسط",
+      "high": "مرتفع"
+    },
+    "campaignCategory": {
+      "ramadan": "رمضان",
+      "education": "تعليم",
+      "medical": "طبي",
+      "emergency": "طارئ"
+    },
+    "donationType": {
+      "sponsorship": "كفالة",
+      "campaign": "حملة",
+      "oneTime": "مرة واحدة"
+    },
+    "need": {
+      "education": "تعليم",
+      "clothing": "ملابس",
+      "medical": "طبي",
+      "food": "غذاء"
+    },
+    "donationTarget": {
+      "generalFund": "الصندوق العام"
+    },
+    "notification": {
+      "n1": {
+        "title": "تذكير بالكفالة",
+        "body": "موعد الكفالة الشهرية ليوسف أ. في 1 مايو.",
+        "time": "منذ ساعتين"
+      },
+      "n2": {
+        "title": "تحديث جديد",
+        "body": "أنهى بلال ر. الفصل الدراسي — يمكنك الاطلاع على التقرير.",
+        "time": "منذ يوم"
+      },
+      "n3": {
+        "title": "إنجاز في الحملة",
+        "body": "وصلت حملة سلال رمضان الغذائية إلى 65٪ من هدفها!",
+        "time": "منذ 3 أيام"
+      }
+    }
+  }
+}

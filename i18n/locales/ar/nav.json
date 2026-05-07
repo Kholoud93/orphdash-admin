@@ -1,0 +1,9 @@
+{
+  "nav": {
+    "dashboard": "لوحة التحكم",
+    "orphans": "الأيتام",
+    "campaigns": "الحملات",
+    "calendar": "التقويم",
+    "profile": "الملف الشخصي"
+  }
+}

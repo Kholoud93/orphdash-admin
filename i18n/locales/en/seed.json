@@ -1,0 +1,51 @@
+{
+  "seed": {
+    "orphanStatus": {
+      "sponsored": "Sponsored",
+      "partiallyFunded": "Partially funded",
+      "awaitingSponsor": "Awaiting sponsor"
+    },
+    "urgency": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    },
+    "campaignCategory": {
+      "ramadan": "Ramadan",
+      "education": "Education",
+      "medical": "Medical",
+      "emergency": "Emergency"
+    },
+    "donationType": {
+      "sponsorship": "Sponsorship",
+      "campaign": "Campaign",
+      "oneTime": "One-time"
+    },
+    "need": {
+      "education": "Education",
+      "clothing": "Clothing",
+      "medical": "Medical",
+      "food": "Food"
+    },
+    "donationTarget": {
+      "generalFund": "General fund"
+    },
+    "notification": {
+      "n1": {
+        "title": "Sponsorship reminder",
+        "body": "Your monthly sponsorship for Yusuf A. is due May 1.",
+        "time": "2h ago"
+      },
+      "n2": {
+        "title": "New update",
+        "body": "Bilal R. just finished his school term — see report.",
+        "time": "1d ago"
+      },
+      "n3": {
+        "title": "Campaign milestone",
+        "body": "Ramadan Food Baskets reached 65% of its goal!",
+        "time": "3d ago"
+      }
+    }
+  }
+}

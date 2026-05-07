@@ -1,0 +1,19 @@
+{
+  "shell": {
+    "brand": "Orphdash Admin",
+    "searchPlaceholder": "Search orphans by name…",
+    "searchHintShort": "Type at least 2 letters to search.",
+    "searchNoResults": "No results found.",
+    "notifications": "Notifications",
+    "new": "New",
+    "backToDashboard": "Back to dashboard",
+    "openCalendar": "Open calendar",
+    "openNotifications": "Open notifications",
+    "closeNotifications": "Close notifications",
+    "closeNav": "Close navigation",
+    "openNav": "Open navigation",
+    "language": "Language",
+    "switchToArabic": "Switch to Arabic",
+    "switchToEnglish": "Switch to English"
+  }
+}

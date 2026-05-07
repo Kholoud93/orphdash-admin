@@ -1,0 +1,9 @@
+{
+  "searchTypes": {
+    "orphan": "يتيم",
+    "campaign": "حملة",
+    "event": "فعالية",
+    "donation": "تبرع",
+    "notification": "إشعار"
+  }
+}

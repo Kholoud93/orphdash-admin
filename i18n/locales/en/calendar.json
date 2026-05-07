@@ -1,0 +1,23 @@
+{
+  "calendar": {
+    "meta": {
+      "title": "Calendar",
+      "description": "Upcoming dates from donations and campaign deadlines."
+    },
+    "title": "Calendar",
+    "subtitle": "Derived from donations and campaigns in the demo dataset.",
+    "allUpcoming": "Upcoming items",
+    "entryCampaignEnds": "Campaign ends · {name}",
+    "entryDonationOn": "{type} donation · {target}",
+    "empty": "No dated items yet.",
+    "weekdays": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    }
+  }
+}
