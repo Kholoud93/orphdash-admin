@@ -1,4 +1,4 @@
-import { useAuthApi } from "~/composables/api/useAuthApi";
+import { useAuthApi } from '~/composables/api/useAuthApi';
 
 export default defineNuxtRouteMiddleware((to) => {
     const { accessToken } = useAuthApi();
