@@ -1,0 +1,16 @@
+{
+    "login": {
+        "meta": {
+            "title": "Login",
+            "description": "Sign in to your admin dashboard."
+        },
+        "welcome_title": "Welcome back",
+        "welcome_subtitle": "Sign in to continue to your dashboard.",
+        "username_label": "Username",
+        "username_placeholder": "Enter your username",
+        "password_label": "Password",
+        "password_placeholder": "Enter your password",
+        "submit": "Login",
+        "error_default": "Login failed."
+    }
+}

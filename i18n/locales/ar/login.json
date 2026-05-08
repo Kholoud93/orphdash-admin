@@ -1,0 +1,16 @@
+{
+    "login": {
+        "meta": {
+            "title": "تسجيل الدخول",
+            "description": "سجّل الدخول إلى لوحة التحكم الخاصة بك."
+        },
+        "welcome_title": "مرحبًا بعودتك",
+        "welcome_subtitle": "سجّل الدخول للمتابعة إلى لوحة التحكم.",
+        "username_label": "اسم المستخدم",
+        "username_placeholder": "أدخل اسم المستخدم",
+        "password_label": "كلمة المرور",
+        "password_placeholder": "أدخل كلمة المرور",
+        "submit": "تسجيل الدخول",
+        "error_default": "فشل تسجيل الدخول."
+    }
+}
