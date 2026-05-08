@@ -1,0 +1,9 @@
+{
+    "search_types": {
+        "orphan": "orphan",
+        "campaign": "campaign",
+        "event": "event",
+        "donation": "donation",
+        "notification": "notification"
+    }
+}

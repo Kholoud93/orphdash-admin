@@ -1,16 +1,16 @@
 {
-  "orphans": {
-    "meta": {
-      "title": "Orphans",
-      "description": "Browse orphan records linked to seed data."
-    },
-    "title": "Orphans",
-    "subtitle": "{count} records (demo data)",
-    "colPhoto": "Photo",
-    "colName": "Name",
-    "colAge": "Age",
-    "colStatus": "Status",
-    "colUrgency": "Priority",
-    "colLocation": "Location"
-  }
+    "orphans": {
+        "meta": {
+            "title": "Orphans",
+            "description": "Browse orphan records linked to seed data."
+        },
+        "title": "Orphans",
+        "subtitle": "{count} records (demo data)",
+        "col_photo": "Photo",
+        "col_name": "Name",
+        "col_age": "Age",
+        "col_status": "Status",
+        "col_urgency": "Priority",
+        "col_location": "Location"
+    }
 }

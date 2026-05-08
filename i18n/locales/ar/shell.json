@@ -1,19 +1,19 @@
 {
-  "shell": {
-    "brand": "لوحة تحكم Orphdash",
-    "searchPlaceholder": "ابحث عن الأيتام بالاسم…",
-    "searchHintShort": "اكتب حرفين على الأقل للبحث.",
-    "searchNoResults": "لا توجد نتائج.",
-    "notifications": "الإشعارات",
-    "new": "جديد",
-    "backToDashboard": "العودة إلى لوحة التحكم",
-    "openCalendar": "فتح التقويم",
-    "openNotifications": "فتح الإشعارات",
-    "closeNotifications": "إغلاق الإشعارات",
-    "closeNav": "إغلاق القائمة",
-    "openNav": "فتح القائمة",
-    "language": "اللغة",
-    "switchToArabic": "التبديل إلى العربية",
-    "switchToEnglish": "التبديل إلى الإنجليزية"
-  }
+    "shell": {
+        "brand": "لوحة تحكم Orphdash",
+        "search_placeholder": "ابحث عن الأيتام بالاسم…",
+        "search_hint_short": "اكتب حرفين على الأقل للبحث.",
+        "search_no_results": "لا توجد نتائج.",
+        "notifications": "الإشعارات",
+        "new": "جديد",
+        "back_to_dashboard": "العودة إلى لوحة التحكم",
+        "open_calendar": "فتح التقويم",
+        "open_notifications": "فتح الإشعارات",
+        "close_notifications": "إغلاق الإشعارات",
+        "close_nav": "إغلاق القائمة",
+        "open_nav": "فتح القائمة",
+        "language": "اللغة",
+        "switch_to_arabic": "التبديل إلى العربية",
+        "switch_to_english": "التبديل إلى الإنجليزية"
+    }
 }

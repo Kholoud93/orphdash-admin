@@ -1,26 +1,26 @@
 {
-  "dashboard": {
-    "meta": {
-      "title": "لوحة تحكم المشرف",
-      "description": "نظرة عامة على الأيتام، التبرعات، الحملات، والإشعارات للمشرفين."
-    },
-    "header": {
-      "welcome": "مرحبًا بعودتك",
-      "title": "نظرة عامة للمشرف",
-      "subtitle": "يوجد 12 إجراء بانتظارك"
-    },
-    "admin": {
-      "total_orphans": "إجمالي الأيتام",
-      "total_donations": "إجمالي التبرعات",
-      "active_sponsorships": "الكفالات النشطة",
-      "live_campaigns": "الحملات الجارية",
-      "delta_orphans": "+2 هذا الشهر",
-      "delta_donations": "+18% مقارنة بالشهر السابق",
-      "delta_retention": "92% معدل الاحتفاظ",
-      "delta_campaigns": "حملتان على وشك الانتهاء",
-      "campaign_progress": "تقدم الحملات",
-      "view_all": "عرض الكل",
-      "notifications": "الإشعارات"
+    "dashboard": {
+        "meta": {
+            "title": "لوحة تحكم المشرف",
+            "description": "نظرة عامة على الأيتام، التبرعات، الحملات، والإشعارات للمشرفين."
+        },
+        "header": {
+            "welcome": "مرحبًا بعودتك",
+            "title": "نظرة عامة للمشرف",
+            "subtitle": "يوجد 12 إجراء بانتظارك"
+        },
+        "admin": {
+            "total_orphans": "إجمالي الأيتام",
+            "total_donations": "إجمالي التبرعات",
+            "active_sponsorships": "الكفالات النشطة",
+            "live_campaigns": "الحملات الجارية",
+            "delta_orphans": "+2 هذا الشهر",
+            "delta_donations": "+18% مقارنة بالشهر السابق",
+            "delta_retention": "92% معدل الاحتفاظ",
+            "delta_campaigns": "حملتان على وشك الانتهاء",
+            "campaign_progress": "تقدم الحملات",
+            "view_all": "عرض الكل",
+            "notifications": "الإشعارات"
+        }
     }
-  }
 }

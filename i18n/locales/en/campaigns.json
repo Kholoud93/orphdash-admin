@@ -1,15 +1,15 @@
 {
-  "campaigns": {
-    "meta": {
-      "title": "Campaigns",
-      "description": "Review fundraising campaigns tied to demo data."
-    },
-    "title": "Campaigns",
-    "subtitle": "{count} active campaigns (seed data)",
-    "colName": "Name",
-    "colCategory": "Category",
-    "colGoal": "Goal",
-    "colRaised": "Raised",
-    "colEnds": "Ends"
-  }
+    "campaigns": {
+        "meta": {
+            "title": "Campaigns",
+            "description": "Review fundraising campaigns tied to demo data."
+        },
+        "title": "Campaigns",
+        "subtitle": "{count} active campaigns (seed data)",
+        "col_name": "Name",
+        "col_category": "Category",
+        "col_goal": "Goal",
+        "col_raised": "Raised",
+        "col_ends": "Ends"
+    }
 }

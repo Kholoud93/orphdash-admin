@@ -1,20 +1,20 @@
 {
-  "profile": {
-    "meta": {
-      "title": "Profile",
-      "description": "Administrator summary for this Orphdash instance."
-    },
-    "adminTitle": "Administrator",
-    "adminSubtitle": "You are viewing the admin workspace (seed snapshot).",
-    "quickStats": "Quick overview",
-    "statOrphans": "Orphans tracked",
-    "statDonationsSum": "Donations recorded (sample)",
-    "statCampaigns": "Campaigns active",
-    "statNotifications": "Notifications in inbox",
-    "accountHeading": "Account",
-    "emailLabel": "Email",
-    "emailPlaceholder": "admin{'@'}orphanage.example.org",
-    "bioLabel": "Notes",
-    "bioPlaceholder": "Replace with roster rules, intake flow, or org notes when wired to auth."
-  }
+    "profile": {
+        "meta": {
+            "title": "Profile",
+            "description": "Administrator summary for this Orphdash instance."
+        },
+        "admin_title": "Administrator",
+        "admin_subtitle": "You are viewing the admin workspace (seed snapshot).",
+        "quick_stats": "Quick overview",
+        "stat_orphans": "Orphans tracked",
+        "stat_donations_sum": "Donations recorded (sample)",
+        "stat_campaigns": "Campaigns active",
+        "stat_notifications": "Notifications in inbox",
+        "account_heading": "Account",
+        "email_label": "Email",
+        "email_placeholder": "admin{'@'}orphanage.example.org",
+        "bio_label": "Notes",
+        "bio_placeholder": "Replace with roster rules, intake flow, or org notes when wired to auth."
+    }
 }

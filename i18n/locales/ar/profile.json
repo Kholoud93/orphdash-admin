@@ -1,20 +1,20 @@
 {
-  "profile": {
-    "meta": {
-      "title": "الملف الشخصي",
-      "description": "ملخص المشرف لهذه النسخة من Orphdash."
-    },
-    "adminTitle": "المشرف",
-    "adminSubtitle": "أنت الآن في مساحة عمل المشرف (بيانات تجريبية).",
-    "quickStats": "نظرة سريعة",
-    "statOrphans": "عدد الأيتام المسجلين",
-    "statDonationsSum": "إجمالي التبرعات (تجريبي)",
-    "statCampaigns": "عدد الحملات النشطة",
-    "statNotifications": "الإشعارات في صندوق الوارد",
-    "accountHeading": "الحساب",
-    "emailLabel": "البريد الإلكتروني",
-    "emailPlaceholder": "admin{'@'}orphanage.example.org",
-    "bioLabel": "ملاحظات",
-    "bioPlaceholder": "يمكنك إضافة قواعد العمل أو إجراءات التسجيل أو ملاحظات المؤسسة بعد ربط النظام بالمصادقة."
-  }
+    "profile": {
+        "meta": {
+            "title": "الملف الشخصي",
+            "description": "ملخص المشرف لهذه النسخة من Orphdash."
+        },
+        "admin_title": "المشرف",
+        "admin_subtitle": "أنت الآن في مساحة عمل المشرف (بيانات تجريبية).",
+        "quick_stats": "نظرة سريعة",
+        "stat_orphans": "عدد الأيتام المسجلين",
+        "stat_donations_sum": "إجمالي التبرعات (تجريبي)",
+        "stat_campaigns": "عدد الحملات النشطة",
+        "stat_notifications": "الإشعارات في صندوق الوارد",
+        "account_heading": "الحساب",
+        "email_label": "البريد الإلكتروني",
+        "email_placeholder": "admin{'@'}orphanage.example.org",
+        "bio_label": "ملاحظات",
+        "bio_placeholder": "يمكنك إضافة قواعد العمل أو إجراءات التسجيل أو ملاحظات المؤسسة بعد ربط النظام بالمصادقة."
+    }
 }

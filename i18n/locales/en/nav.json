@@ -1,9 +1,9 @@
 {
-  "nav": {
-    "dashboard": "Dashboard",
-    "orphans": "Orphans",
-    "campaigns": "Campaigns",
-    "calendar": "Calendar",
-    "profile": "Profile"
-  }
+    "nav": {
+        "dashboard": "Dashboard",
+        "orphans": "Orphans",
+        "campaigns": "Campaigns",
+        "calendar": "Calendar",
+        "profile": "Profile"
+    }
 }

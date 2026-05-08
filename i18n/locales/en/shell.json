@@ -1,19 +1,19 @@
 {
-  "shell": {
-    "brand": "Orphdash Admin",
-    "searchPlaceholder": "Search orphans by name…",
-    "searchHintShort": "Type at least 2 letters to search.",
-    "searchNoResults": "No results found.",
-    "notifications": "Notifications",
-    "new": "New",
-    "backToDashboard": "Back to dashboard",
-    "openCalendar": "Open calendar",
-    "openNotifications": "Open notifications",
-    "closeNotifications": "Close notifications",
-    "closeNav": "Close navigation",
-    "openNav": "Open navigation",
-    "language": "Language",
-    "switchToArabic": "Switch to Arabic",
-    "switchToEnglish": "Switch to English"
-  }
+    "shell": {
+        "brand": "Orphdash Admin",
+        "search_placeholder": "Search orphans by name…",
+        "search_hint_short": "Type at least 2 letters to search.",
+        "search_no_results": "No results found.",
+        "notifications": "Notifications",
+        "new": "New",
+        "back_to_dashboard": "Back to dashboard",
+        "open_calendar": "Open calendar",
+        "open_notifications": "Open notifications",
+        "close_notifications": "Close notifications",
+        "close_nav": "Close navigation",
+        "open_nav": "Open navigation",
+        "language": "Language",
+        "switch_to_arabic": "Switch to Arabic",
+        "switch_to_english": "Switch to English"
+    }
 }

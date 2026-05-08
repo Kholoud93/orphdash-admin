@@ -1,7 +1,7 @@
 {
-  "meta": {
-    "project_name": "لوحة تحكم Orphdash",
-    "title": "لوحة تحكم Orphdash",
-    "description": "لوحة تحكم بسيطة مستخرجة من مشروع Orphany باستخدام Vue."
-  }
+    "meta": {
+        "project_name": "لوحة تحكم Orphdash",
+        "title": "لوحة تحكم Orphdash",
+        "description": "لوحة تحكم بسيطة مستخرجة من مشروع Orphany باستخدام Vue."
+    }
 }

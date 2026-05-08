@@ -1,16 +1,16 @@
 {
-  "orphans": {
-    "meta": {
-      "title": "الأيتام",
-      "description": "تصفح سجلات الأيتام المرتبطة بالبيانات التجريبية."
-    },
-    "title": "الأيتام",
-    "subtitle": "{count} سجل (بيانات تجريبية)",
-    "colPhoto": "الصورة",
-    "colName": "الاسم",
-    "colAge": "العمر",
-    "colStatus": "الحالة",
-    "colUrgency": "الأولوية",
-    "colLocation": "الموقع"
-  }
+    "orphans": {
+        "meta": {
+            "title": "الأيتام",
+            "description": "تصفح سجلات الأيتام المرتبطة بالبيانات التجريبية."
+        },
+        "title": "الأيتام",
+        "subtitle": "{count} سجل (بيانات تجريبية)",
+        "col_photo": "الصورة",
+        "col_name": "الاسم",
+        "col_age": "العمر",
+        "col_status": "الحالة",
+        "col_urgency": "الأولوية",
+        "col_location": "الموقع"
+    }
 }

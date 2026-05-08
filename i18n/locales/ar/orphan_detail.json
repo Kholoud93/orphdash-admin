@@ -1,0 +1,23 @@
+{
+    "orphan_detail": {
+        "meta": {
+            "title": "ملف اليتيم",
+            "description": "تفاصيل ملف يتيم واحد (بيانات تجريبية)."
+        },
+        "not_found": "لم يتم العثور على اليتيم",
+        "not_found_hint": "هذا السجل غير موجود في البيانات التجريبية.",
+        "back_to_orphans": "العودة إلى قائمة الأيتام",
+        "back": "رجوع",
+        "age": "العمر {age}",
+        "meta_separator": "·",
+        "image_alt": "صورة {name}",
+        "monthly_support": "هدف الدعم الشهري",
+        "raised_so_far": "تم جمعه",
+        "status": "الحالة",
+        "urgency": "الأولوية",
+        "location": "الموقع",
+        "needs": "الاحتياجات",
+        "story": "القصة",
+        "sponsor_now": "اكفل الآن"
+    }
+}

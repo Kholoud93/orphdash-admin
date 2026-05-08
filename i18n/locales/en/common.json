@@ -1,7 +1,7 @@
 {
-  "common": {
-    "loading": "Loading",
-    "cancel": "Cancel",
-    "save": "Save"
-  }
+    "common": {
+        "loading": "Loading",
+        "cancel": "Cancel",
+        "save": "Save"
+    }
 }

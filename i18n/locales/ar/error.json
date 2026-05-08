@@ -1,18 +1,18 @@
 {
-  "error": {
-    "titles": {
-      "not_found": "الصفحة غير موجودة",
-      "server_error": "حدث خطأ ما",
-      "generic_error": "خطأ {code}"
-    },
-    "descriptions": {
-      "not_found": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
-      "server_error": "نواجه مشكلة في تحميل هذه الصفحة. حاول مرة أخرى بعد قليل.",
-      "generic_error": "حدث أمر غير متوقع."
-    },
-    "actions": {
-      "try_again": "حاول مرة أخرى",
-      "go_home": "العودة إلى الرئيسية"
+    "error": {
+        "titles": {
+            "not_found": "الصفحة غير موجودة",
+            "server_error": "حدث خطأ ما",
+            "generic_error": "خطأ {code}"
+        },
+        "descriptions": {
+            "not_found": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+            "server_error": "نواجه مشكلة في تحميل هذه الصفحة. حاول مرة أخرى بعد قليل.",
+            "generic_error": "حدث أمر غير متوقع."
+        },
+        "actions": {
+            "try_again": "حاول مرة أخرى",
+            "go_home": "العودة إلى الرئيسية"
+        }
     }
-  }
 }
