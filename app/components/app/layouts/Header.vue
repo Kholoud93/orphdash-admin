@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { Heart, Menu, X } from 'lucide-vue-next';
-
 const { mobileOpen, notificationsOpen, unread, searchOpen, searchQuery, searchResults, toggleMobile, onSearchBlur, onSearchKeydown, openSearchResult } = useAppShell();
 
 function openNotifications() {
@@ -28,13 +26,13 @@ function openSearch() {
             }"
             :aria-label="mobileOpen ? $t('shell.close_nav') : $t('shell.open_nav')"
             @click="toggleMobile">
-            <X v-if="mobileOpen" class="h-4 w-4" />
-            <Menu v-else class="h-4 w-4" />
+            <UIcon v-if="mobileOpen" name="i-lucide-x" class="h-4 w-4" />
+            <UIcon v-else name="i-lucide-menu" class="h-4 w-4" />
         </UButton>
 
         <div class="flex items-center gap-2 md:hidden">
             <div class="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-primary-foreground">
-                <Heart class="h-4 w-4" fill="currentColor" />
+                <UIcon name="i-lucide-heart" class="h-4 w-4 fill-current" />
             </div>
             <span class="font-display text-lg font-semibold">{{ $t('shell.brand') }}</span>
         </div>

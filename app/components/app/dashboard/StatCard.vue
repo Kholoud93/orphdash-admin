@@ -1,12 +1,10 @@
 <script setup lang="ts">
-import type { Component } from 'vue';
-
 const props = withDefaults(
     defineProps<{
         label: string;
         value: string | number;
         delta?: string;
-        icon: Component;
+        icon: string;
         tone?: 'primary' | 'accent' | 'warning';
     }>(),
     { tone: 'primary', delta: undefined },
@@ -29,7 +27,7 @@ const iconWrapperClass = computed(() => toneClasses[props.tone]);
             </span>
 
             <span class="flex h-9 w-9 items-center justify-center rounded-xl" :class="iconWrapperClass">
-                <component :is="icon" class="h-5 w-5" />
+                <UIcon :name="icon" class="h-5 w-5" />
             </span>
         </div>
 

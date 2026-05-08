@@ -1,15 +1,13 @@
 <script setup lang="ts">
-import { CalendarDays, LayoutDashboard, Megaphone, UserCircle2, Users } from 'lucide-vue-next';
-
 const { path, mobileOpen, notificationsOpen, notifications, closeMobile } = useAppShell();
 const localePath = useLocalePath();
 
 const nav = [
-    { to: '/', key: 'nav.dashboard', icon: LayoutDashboard },
-    { to: '/orphans', key: 'nav.orphans', icon: Users },
-    { to: '/campaigns', key: 'nav.campaigns', icon: Megaphone },
-    { to: '/calendar', key: 'nav.calendar', icon: CalendarDays },
-    { to: '/profile', key: 'nav.profile', icon: UserCircle2 },
+    { to: '/', key: 'nav.dashboard', icon: 'i-lucide-layout-dashboard' },
+    { to: '/orphans', key: 'nav.orphans', icon: 'i-lucide-users' },
+    { to: '/campaigns', key: 'nav.campaigns', icon: 'i-lucide-megaphone' },
+    { to: '/calendar', key: 'nav.calendar', icon: 'i-lucide-calendar-days' },
+    { to: '/profile', key: 'nav.profile', icon: 'i-lucide-user-circle-2' },
 ] as const;
 
 function closeNotifications() {
@@ -28,7 +26,7 @@ function closeNotifications() {
                 <div class="flex justify-end gap-2 overflow-x-auto px-4 py-2">
                     <div class="flex gap-1">
                         <NuxtLink v-for="n in nav" :key="n.to" :to="localePath(n.to)" class="rounded-lg p-2" :class="n.to === '/' ? (path === '/' ? 'bg-primary text-primary-foreground' : 'bg-muted') : path === n.to || path.startsWith(`${n.to}/`) ? 'bg-primary text-primary-foreground' : 'bg-muted'" @click="closeMobile">
-                            <component :is="n.icon" class="h-4 w-4" />
+                            <UIcon :name="n.icon" class="h-4 w-4" />
                         </NuxtLink>
                     </div>
                 </div>
