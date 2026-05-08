@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { DollarSign, HeartHandshake, Megaphone, Users } from 'lucide-vue-next';
-
 definePageMeta({
     layout: 'default',
     title: 'dashboard.meta.title',
@@ -17,12 +15,12 @@ const seedLabels = useSeedLabels();
         <QuAppDashboardHeader />
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-            <QuAppDashboardStatCard :label="t('dashboard.admin.total_orphans')" :value="String(orphansCount)" :delta="t('dashboard.admin.delta_orphans')" :icon="Users" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.total_donations')" :value="`$${totalDonations.toLocaleString()}`" :delta="t('dashboard.admin.delta_donations')" :icon="DollarSign" tone="accent" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.active_sponsorships')" :value="String(sponsoredCount)" :delta="t('dashboard.admin.delta_retention')" :icon="HeartHandshake" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.live_campaigns')" :value="String(campaigns.length)" :delta="t('dashboard.admin.delta_campaigns')" :icon="Megaphone" tone="warning" />
+            <QuAppDashboardStatCard :label="t('dashboard.admin.total_orphans')" :value="String(orphansCount)" :delta="t('dashboard.admin.delta_orphans')" icon="i-lucide-users" />
+            <QuAppDashboardStatCard :label="t('dashboard.admin.total_donations')" :value="`$${totalDonations.toLocaleString()}`" :delta="t('dashboard.admin.delta_donations')" icon="i-lucide-dollar-sign" tone="accent" />
+            <QuAppDashboardStatCard :label="t('dashboard.admin.active_sponsorships')" :value="String(sponsoredCount)" :delta="t('dashboard.admin.delta_retention')" icon="i-lucide-heart-handshake" />
+            <QuAppDashboardStatCard :label="t('dashboard.admin.live_campaigns')" :value="String(campaigns.length)" :delta="t('dashboard.admin.delta_campaigns')" icon="i-lucide-megaphone" tone="warning" />
 
-            <QuUISection class="md:col-span-2 xl:col-span-4">
+            <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5 md:col-span-2 xl:col-span-4">
                 <header class="mb-4 flex flex-wrap items-center justify-between gap-2">
                     <div class="min-w-0">
                         <h2 class="font-display text-lg font-semibold">{{ t('dashboard.admin.campaign_progress') }}</h2>
@@ -46,9 +44,9 @@ const seedLabels = useSeedLabels();
                         <QuUIBaseProgressBar :value="campaign.raised" :max="campaign.goal" tone="accent" />
                     </div>
                 </div>
-            </QuUISection>
+            </UContainer>
 
-            <QuUISection class="md:col-span-2 xl:col-span-2">
+            <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5 md:col-span-2 xl:col-span-2">
                 <h2 class="font-display text-lg font-semibold">{{ t('dashboard.admin.notifications') }}</h2>
                 <ul class="mt-3 space-y-3">
                     <li v-for="n in notificationsPreview" :key="n.id" class="rounded-xl border p-3 text-sm">
@@ -59,7 +57,7 @@ const seedLabels = useSeedLabels();
                         </p>
                     </li>
                 </ul>
-            </QuUISection>
+            </UContainer>
         </div>
     </div>
 </template>

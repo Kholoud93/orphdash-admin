@@ -39,7 +39,7 @@ const rows = computed<Row[]>(() => {
 
 <template>
     <div class="space-y-6">
-        <QuUISection>
+        <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5">
             <h1 class="font-display text-xl font-semibold">{{ t('calendar.title') }}</h1>
             <p class="mt-1 text-sm text-muted-foreground">{{ t('calendar.subtitle') }}</p>
 
@@ -61,6 +61,6 @@ const rows = computed<Row[]>(() => {
                 </li>
             </ul>
             <p v-else class="mt-3 text-sm text-muted-foreground">{{ t('calendar.empty') }}</p>
-        </QuUISection>
+        </UContainer>
     </div>
 </template>

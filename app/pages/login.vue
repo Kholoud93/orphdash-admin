@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Heart } from 'lucide-vue-next';
 import { useAuthApi } from '~/composables/api/useAuthApi';
 
 definePageMeta({
@@ -44,13 +43,13 @@ async function onLogin() {
         <div class="w-full max-w-md space-y-4">
             <div class="text-center">
                 <div class="mx-auto mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-primary-foreground">
-                    <Heart class="h-6 w-6" fill="currentColor" />
+                    <UIcon name="i-lucide-heart" class="h-6 w-6 fill-current" />
                 </div>
                 <h1 class="font-display text-2xl font-semibold">{{ $t('login.welcome_title') }}</h1>
                 <p class="mt-1 text-sm text-muted-foreground">{{ $t('login.welcome_subtitle') }}</p>
             </div>
 
-            <QuUISection>
+            <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5">
                 <form class="space-y-4" @submit.prevent="onLogin">
                     <div class="mx-auto w-full max-w-xs space-y-4">
                         <UFormField :label="$t('login.username_label')">
@@ -64,7 +63,7 @@ async function onLogin() {
 
                     <UButton type="submit" block :loading="loading">{{ $t('login.submit') }}</UButton>
                 </form>
-            </QuUISection>
+            </UContainer>
 
             <UAlert v-if="errorMessage" color="error" variant="soft" :title="errorMessage" />
         </div>

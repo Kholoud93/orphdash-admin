@@ -15,7 +15,7 @@ const statCard = 'rounded-2xl border bg-card p-5 shadow-sm';
 
 <template>
     <div class="space-y-6">
-        <QuUISection>
+        <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5">
             <h1 class="font-display text-xl font-semibold">{{ t('profile.admin_title') }}</h1>
             <p class="mt-1 text-sm text-muted-foreground">{{ t('profile.admin_subtitle') }}</p>
 
@@ -54,6 +54,6 @@ const statCard = 'rounded-2xl border bg-card p-5 shadow-sm';
                     </p>
                 </div>
             </div>
-        </QuUISection>
+        </UContainer>
     </div>
 </template>
