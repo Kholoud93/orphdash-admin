@@ -1,0 +1,18 @@
+node_modules
+.nuxt
+.output
+dist
+public
+package-lock.json
+*.zip
+
+# Canonical reference docs (do not reformat sources of truth)
+CONTRIBUTING.md
+FRONTEND-SHORT-GUIDE.md
+INFORMATIONAL-WEBSITE-TEAM-WORKFLOW.md
+
+# Locally authored docs (leave markdown formatting as written)
+ALIGNMENT-AUDIT.md
+CHANGES.md
+CHANGE_SUMMARY.md
+RULES.md
