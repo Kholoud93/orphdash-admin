@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import type { Notification } from '~/types/orphan';
-import { X } from 'lucide-vue-next';
 
 const props = defineProps<{
     notificationsOpen: boolean;
@@ -8,23 +7,31 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-    (e: 'closeNotifications'): void;
+    closeNotifications: [];
 }>();
 
 const localePath = useLocalePath();
 const seedLabels = useSeedLabels();
+
+function onOpenChange(value: boolean) {
+    if (!value) emit('closeNotifications');
+}
 </script>
 
 <template>
-    <div v-if="props.notificationsOpen" class="fixed inset-0 z-50 flex items-start justify-end bg-foreground/30 p-4 backdrop-blur-sm" @click="emit('closeNotifications')">
-        <div class="mt-14 w-full max-w-sm rounded-2xl border bg-card p-5 shadow-xl" @click.stop>
-            <div class="mb-3 flex items-center justify-between gap-2">
-                <h2 class="font-display text-lg font-semibold">{{ $t('shell.notifications') }}</h2>
-                <button type="button" class="rounded-lg border p-1.5 hover:bg-muted" :aria-label="$t('shell.close_notifications')" @click="emit('closeNotifications')">
-                    <X class="h-4 w-4" />
-                </button>
-            </div>
-
+    <UModal
+        :open="props.notificationsOpen"
+        :title="$t('shell.notifications')"
+        :ui="{
+            overlay: 'bg-foreground/30 backdrop-blur-sm',
+            content: 'max-w-sm rounded-2xl border bg-card shadow-xl divide-y-0',
+            header: 'p-5 pb-3',
+            body: 'px-5 py-0',
+            footer: 'p-5 pt-4 border-t-0',
+            title: 'font-display text-lg font-semibold',
+        }"
+        @update:open="onOpenChange">
+        <template #body>
             <ul class="space-y-3">
                 <li v-for="notification in props.notifications" :key="notification.id" class="rounded-xl border p-3 text-sm">
                     <div class="flex items-start justify-between gap-3">
@@ -43,10 +50,12 @@ const seedLabels = useSeedLabels();
                     </p>
                 </li>
             </ul>
+        </template>
 
-            <NuxtLink :to="localePath('/calendar')" class="mt-4 inline-flex w-full items-center justify-center rounded-xl border px-3 py-2 text-sm font-medium hover:bg-muted" @click="emit('closeNotifications')">
+        <template #footer>
+            <NuxtLink :to="localePath('/calendar')" class="inline-flex w-full items-center justify-center rounded-xl border px-3 py-2 text-sm font-medium hover:bg-muted" @click="emit('closeNotifications')">
                 {{ $t('shell.open_calendar') }}
             </NuxtLink>
-        </div>
-    </div>
+        </template>
+    </UModal>
 </template>
