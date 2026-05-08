@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { Heart } from 'lucide-vue-next';
+import { useAuthApi } from '~/composables/api/useAuthApi';
 
 definePageMeta({
     layout: false,
