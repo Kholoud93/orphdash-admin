@@ -66,7 +66,7 @@ useHead({
 
 <template>
     <main class="relative min-h-screen overflow-hidden bg-primary-50">
-        <NuxtImg src="/images/error.png" alt="" class="absolute inset-0 h-full w-full object-cover object-center" />
+        <NuxtImg src="/images/error.png" alt="" format="webp" class="absolute inset-0 h-full w-full object-cover object-center" />
         <div class="relative z-10 flex min-h-screen items-end justify-center px-4 pb-8 sm:pb-12">
             <section class="mx-auto max-w-3xl text-center">
                 <p class="mb-4 text-2xl font-semibold text-slate-800 md:text-3xl">
