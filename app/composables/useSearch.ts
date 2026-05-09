@@ -28,11 +28,16 @@ export function useSearch() {
             }));
     });
 
-    function onSearchBlur() {
-        if (!import.meta.client) return;
-        window.setTimeout(() => {
+    const { start: startBlurCloseTimeout } = useTimeoutFn(
+        () => {
             searchOpen.value = false;
-        }, 150);
+        },
+        150,
+        { immediate: false },
+    );
+
+    function onSearchBlur() {
+        startBlurCloseTimeout();
     }
 
     function onSearchKeydown(event: KeyboardEvent) {

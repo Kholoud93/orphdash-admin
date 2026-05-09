@@ -6,8 +6,15 @@ const requestUrl = useRequestURL();
 const { direction } = useLocaleDirection();
 const switchLocalePath = useSwitchLocalePath();
 const isAppLoading = useState<boolean>('orphdash-app-initial-loader', () => true);
-let appLoaderTimeout: ReturnType<typeof setTimeout> | null = null;
 const BRAND_LOADER_DURATION_MS = 500;
+
+const { start: startBrandLoaderTimeout } = useTimeoutFn(
+    () => {
+        isAppLoading.value = false;
+    },
+    BRAND_LOADER_DURATION_MS,
+    { immediate: false },
+);
 
 const siteUrl = computed(() => {
     const value = config.public.siteUrl;
@@ -115,17 +122,7 @@ useHead(() => {
     };
 });
 
-onMounted(() => {
-    appLoaderTimeout = setTimeout(() => {
-        isAppLoading.value = false;
-    }, BRAND_LOADER_DURATION_MS);
-});
-
-onBeforeUnmount(() => {
-    if (appLoaderTimeout) {
-        clearTimeout(appLoaderTimeout);
-    }
-});
+onMounted(startBrandLoaderTimeout);
 </script>
 
 <template>
