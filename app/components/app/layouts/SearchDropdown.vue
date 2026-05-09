@@ -1,12 +1,9 @@
 <script setup lang="ts">
-import type { Component } from 'vue';
-
 type SearchResult = {
     id: string;
     title: string;
     type: string;
     to: string;
-    icon?: Component;
 };
 
 const props = defineProps<{
