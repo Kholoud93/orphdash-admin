@@ -15,10 +15,10 @@ const seedLabels = useSeedLabels();
         <QuAppDashboardHeader />
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
-            <QuAppDashboardStatCard :label="t('dashboard.admin.total_orphans')" :value="String(orphansCount)" :delta="t('dashboard.admin.delta_orphans')" icon="i-lucide-users" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.total_donations')" :value="`$${totalDonations.toLocaleString()}`" :delta="t('dashboard.admin.delta_donations')" icon="i-lucide-dollar-sign" tone="accent" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.active_sponsorships')" :value="String(sponsoredCount)" :delta="t('dashboard.admin.delta_retention')" icon="i-lucide-heart-handshake" />
-            <QuAppDashboardStatCard :label="t('dashboard.admin.live_campaigns')" :value="String(campaigns.length)" :delta="t('dashboard.admin.delta_campaigns')" icon="i-lucide-megaphone" tone="warning" />
+            <QuUIStatCard :label="t('dashboard.admin.total_orphans')" :value="String(orphansCount)" :delta="t('dashboard.admin.delta_orphans')" icon="i-lucide-users" />
+            <QuUIStatCard :label="t('dashboard.admin.total_donations')" :value="`$${totalDonations.toLocaleString()}`" :delta="t('dashboard.admin.delta_donations')" icon="i-lucide-dollar-sign" tone="accent" />
+            <QuUIStatCard :label="t('dashboard.admin.active_sponsorships')" :value="String(sponsoredCount)" :delta="t('dashboard.admin.delta_retention')" icon="i-lucide-heart-handshake" />
+            <QuUIStatCard :label="t('dashboard.admin.live_campaigns')" :value="String(campaigns.length)" :delta="t('dashboard.admin.delta_campaigns')" icon="i-lucide-megaphone" tone="warning" />
 
             <UContainer class="min-w-0 rounded-2xl border bg-card p-5 shadow-sm sm:p-5 md:col-span-2 xl:col-span-4">
                 <header class="mb-4 flex flex-wrap items-center justify-between gap-2">
@@ -41,7 +41,7 @@ const seedLabels = useSeedLabels();
                                 <span class="truncate font-medium">{{ campaign.name }}</span>
                             </div>
                         </div>
-                        <QuUIBaseProgressBar :value="campaign.raised" :max="campaign.goal" tone="accent" />
+                        <QuUIProgressBar :value="campaign.raised" :max="campaign.goal" tone="accent" />
                     </div>
                 </div>
             </UContainer>

@@ -39,6 +39,6 @@ function onUpdate(value: string | number) {
             @blur="emit('searchBlur')"
             @keydown="emit('searchKeydown', $event)"
             @update:model-value="onUpdate" />
-        <QuAppLayoutsSearchDropdown :search-open="props.searchOpen" :search-results="props.searchResults" @pick-search-result="emit('pickSearchResult', $event)" />
+        <QuAppShellSearchDropdown :search-open="props.searchOpen" :search-results="props.searchResults" @pick-search-result="emit('pickSearchResult', $event)" />
     </div>
 </template>

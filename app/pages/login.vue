@@ -37,7 +37,7 @@ async function onLogin() {
 <template>
     <div class="relative flex min-h-[70vh] items-center justify-center px-4">
         <div class="absolute top-4 end-4">
-            <QuAppLayoutsLocaleSwitcher />
+            <QuAppShellLocaleSwitcher />
         </div>
 
         <div class="w-full max-w-md space-y-4">

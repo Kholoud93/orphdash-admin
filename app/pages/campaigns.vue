@@ -46,7 +46,7 @@ const rows = computed(() => orphanStore.campaigns);
                             <div>{{ seedLabels.formatShortDate(c.endsAt) }}</div>
                         </div>
                     </div>
-                    <QuUIBaseProgressBar class="mt-3" :value="c.raised" :max="c.goal" tone="accent" />
+                    <QuUIProgressBar class="mt-3" :value="c.raised" :max="c.goal" tone="accent" />
                 </div>
             </div>
         </UContainer>

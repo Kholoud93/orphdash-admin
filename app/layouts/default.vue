@@ -37,6 +37,6 @@ function closeNotifications() {
             </main>
         </div>
 
-        <QuAppLayoutsNotificationDialog :notifications-open="notificationsOpen" :notifications="notifications" @close-notifications="closeNotifications" />
+        <QuAppShellNotificationDialog :notifications-open="notificationsOpen" :notifications="notifications" @close-notifications="closeNotifications" />
     </div>
 </template>

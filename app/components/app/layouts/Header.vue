@@ -37,11 +37,11 @@ function openSearch() {
             <span class="font-display text-lg font-semibold">{{ $t('shell.brand') }}</span>
         </div>
 
-        <QuAppLayoutsSearch :search-query="searchQuery" :search-open="searchOpen" :search-results="searchResults" @open-search="openSearch" @search-blur="onSearchBlur" @search-keydown="onSearchKeydown($event)" @update-search-query="updateSearchQuery($event)" @pick-search-result="openSearchResult($event)" />
+        <QuAppShellSearch :search-query="searchQuery" :search-open="searchOpen" :search-results="searchResults" @open-search="openSearch" @search-blur="onSearchBlur" @search-keydown="onSearchKeydown($event)" @update-search-query="updateSearchQuery($event)" @pick-search-result="openSearchResult($event)" />
 
         <div class="ml-auto flex shrink-0 items-center gap-3 md:ml-0">
-            <QuAppLayoutsLocaleSwitcher />
-            <QuAppLayoutsNotificationButton :unread="unread" @open-notifications="openNotifications" />
+            <QuAppShellLocaleSwitcher />
+            <QuAppShellNotificationButton :unread="unread" @open-notifications="openNotifications" />
         </div>
     </header>
 </template>
